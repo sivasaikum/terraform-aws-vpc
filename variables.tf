@@ -85,3 +85,11 @@ variable "database_route_table_tags" {
 variable "destination_cidr_block" {
     default = "0.0.0.0/0"
 }
+
+variable "is_peering_required" {
+    default = false
+}
+
+variable "peer_tags" {
+    default = {}
+}
